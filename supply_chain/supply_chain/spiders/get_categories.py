@@ -11,7 +11,7 @@ class GetCategorySpider(scrapy.Spider):
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse_categories)
 
-    def parse_categories(self, response: scrapy.http.Response) -> scrapy.Request | None:
+    def parse_categories(self, response: scrapy.http.Response):
         """Parse the categories page and extract all category information"""
 
         # Find categories div container

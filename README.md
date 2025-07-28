@@ -5,7 +5,7 @@ Install python3, pip3, venv
 First retrieve the project on your computer
 
 ```bash
-git clone git@github.com:AdJez/ai_supply_chain.git
+git clone https://github.com/AdJez/ai_supply_chain.git
 ```
 
 On your machine, create an env wherever you want. In this example we gonna place it the root of our machine.   

@@ -23,7 +23,7 @@ class GetReviewsSpider(scrapy.Spider):
             self.logger.error("Invalid JSON in products.json file") 
 
 
-    def get_reviews(self, response: scrapy.http.Response, category_name: str, category_slug: str, product_slug: str) -> scrapy.Request | None:
+    def get_reviews(self, response, category_name, category_slug, product_slug):
         """Parse the product page and extract all review information"""
         # Find reviews div container
 
