@@ -1,0 +1,1057 @@
+[
+  {
+    "link": "/categories/food_beverages_tobacco",
+    "name": "Aliments, boissons & tabac",
+    "slug": "food_beverages_tobacco"
+  },
+  {
+    "link": "/categories/agriculture_produce",
+    "name": "Agriculture & production",
+    "slug": "agriculture_produce"
+  },
+  {
+    "link": "/categories/beer_wine",
+    "name": "Bière & vin",
+    "slug": "beer_wine"
+  },
+  {
+    "link": "/categories/beverages_liquor",
+    "name": "Boissons & alcool",
+    "slug": "beverages_liquor"
+  },
+  {
+    "link": "/categories/candy_chocolate",
+    "name": "Bonbons & chocolat",
+    "slug": "candy_chocolate"
+  },
+  {
+    "link": "/categories/bakery_pastry",
+    "name": "Boulangerie & pâtisserie",
+    "slug": "bakery_pastry"
+  },
+  {
+    "link": "/categories/coffee_tea",
+    "name": "Café & thé",
+    "slug": "coffee_tea"
+  },
+  {
+    "link": "/categories/lunch_catering",
+    "name": "Déjeuner & traiteur",
+    "slug": "lunch_catering"
+  },
+  {
+    "link": "/categories/grocery_stores_markets",
+    "name": "Épiceries & marchés",
+    "slug": "grocery_stores_markets"
+  },
+  {
+    "link": "/categories/asian_grocery_stores",
+    "name": "Épiceries asiatiques",
+    "slug": "asian_grocery_stores"
+  },
+  {
+    "link": "/categories/fruits_vegetables",
+    "name": "Fruits & légumes",
+    "slug": "fruits_vegetables"
+  },
+  {
+    "link": "/categories/food_production",
+    "name": "Production alimentaire",
+    "slug": "food_production"
+  },
+  {
+    "link": "/categories/smoking_tobacco",
+    "name": "Tabac & cigarettes",
+    "slug": "smoking_tobacco"
+  },
+  {
+    "link": "/categories/meat_seafood_eggs",
+    "name": "Viande, fruits de mer & oeufs",
+    "slug": "meat_seafood_eggs"
+  },
+  {
+    "link": "/categories/animals_pets",
+    "name": "Animaux",
+    "slug": "animals_pets"
+  },
+  {
+    "link": "/categories/pet_stores",
+    "name": "Animalerie",
+    "slug": "pet_stores"
+  },
+  {
+    "link": "/categories/cats_dogs",
+    "name": "Chats & chiens",
+    "slug": "cats_dogs"
+  },
+  {
+    "link": "/categories/horses_riding",
+    "name": "Chevaux & équitation",
+    "slug": "horses_riding"
+  },
+  {
+    "link": "/categories/animal_parks_zoo",
+    "name": "Parcs animaliers & zoos",
+    "slug": "animal_parks_zoo"
+  },
+  {
+    "link": "/categories/animal_health",
+    "name": "Santé animale",
+    "slug": "animal_health"
+  },
+  {
+    "link": "/categories/pet_services",
+    "name": "Services animaliers",
+    "slug": "pet_services"
+  },
+  {
+    "link": "/categories/money_insurance",
+    "name": "Argent & assurance",
+    "slug": "money_insurance"
+  },
+  {
+    "link": "/categories/insurance",
+    "name": "Assurance",
+    "slug": "insurance"
+  },
+  {
+    "link": "/categories/banking_money",
+    "name": "Banque & argent",
+    "slug": "banking_money"
+  },
+  {
+    "link": "/categories/accounting_tax",
+    "name": "Comptabilité & taxes",
+    "slug": "accounting_tax"
+  },
+  {
+    "link": "/categories/real_estate",
+    "name": "Immobilier",
+    "slug": "real_estate"
+  },
+  {
+    "link": "/categories/investments_wealth",
+    "name": "Placements et patrimoine",
+    "slug": "investments_wealth"
+  },
+  {
+    "link": "/categories/credit_debt_services",
+    "name": "Services d'endettement et de crédit",
+    "slug": "credit_debt_services"
+  },
+  {
+    "link": "/categories/beauty_wellbeing",
+    "name": "Beauté & bien-être",
+    "slug": "beauty_wellbeing"
+  },
+  {
+    "link": "/categories/wellness_spa",
+    "name": "Bien-être & spa",
+    "slug": "wellness_spa"
+  },
+  {
+    "link": "/categories/personal_care",
+    "name": "Hygiène personnelle",
+    "slug": "personal_care"
+  },
+  {
+    "link": "/categories/cosmetics_makeup",
+    "name": "Produits de beauté & maquillage",
+    "slug": "cosmetics_makeup"
+  },
+  {
+    "link": "/categories/salons_clinics",
+    "name": "Salons & cliniques esthétiques",
+    "slug": "salons_clinics"
+  },
+  {
+    "link": "/categories/hair_care_styling",
+    "name": "Soins capillaires & coiffure",
+    "slug": "hair_care_styling"
+  },
+  {
+    "link": "/categories/tattoos_piercings",
+    "name": "Tatouages & piercings",
+    "slug": "tattoos_piercings"
+  },
+  {
+    "link": "/categories/yoga_meditation",
+    "name": "Yoga & méditation",
+    "slug": "yoga_meditation"
+  },
+  {
+    "link": "/categories/construction_manufactoring",
+    "name": "Construction & fabrication",
+    "slug": "construction_manufactoring"
+  },
+  {
+    "link": "/categories/architects_engineers",
+    "name": "Architectes & ingénieurs",
+    "slug": "architects_engineers"
+  },
+  {
+    "link": "/categories/contractors_consultants",
+    "name": "Entrepreneurs & consultants",
+    "slug": "contractors_consultants"
+  },
+  {
+    "link": "/categories/factory_equipment",
+    "name": "Équipement d'usine",
+    "slug": "factory_equipment"
+  },
+  {
+    "link": "/categories/manufacturing",
+    "name": "Fabrication industrielle",
+    "slug": "manufacturing"
+  },
+  {
+    "link": "/categories/industrial_supplies",
+    "name": "Fournitures industrielles",
+    "slug": "industrial_supplies"
+  },
+  {
+    "link": "/categories/garden_landscaping",
+    "name": "Jardin & paysagisme",
+    "slug": "garden_landscaping"
+  },
+  {
+    "link": "/categories/building_materials",
+    "name": "Matériaux de construction",
+    "slug": "building_materials"
+  },
+  {
+    "link": "/categories/tools_equipment",
+    "name": "Outils & équipement",
+    "slug": "tools_equipment"
+  },
+  {
+    "link": "/categories/chemicals_plastic",
+    "name": "Produits chimiques & plastique",
+    "slug": "chemicals_plastic"
+  },
+  {
+    "link": "/categories/construction_services",
+    "name": "Services de construction",
+    "slug": "construction_services"
+  },
+  {
+    "link": "/categories/production_services",
+    "name": "Services de production",
+    "slug": "production_services"
+  },
+  {
+    "link": "/categories/education_training",
+    "name": "Éducation & formation",
+    "slug": "education_training"
+  },
+  {
+    "link": "/categories/language_learning",
+    "name": "Apprentissage des langues étrangères",
+    "slug": "language_learning"
+  },
+  {
+    "link": "/categories/colleges_universities",
+    "name": "Collèges & universités",
+    "slug": "colleges_universities"
+  },
+  {
+    "link": "/categories/music_theater_classes",
+    "name": "Cours de musique et de théâtre",
+    "slug": "music_theater_classes"
+  },
+  {
+    "link": "/categories/school_high_school",
+    "name": "École & lycée",
+    "slug": "school_high_school"
+  },
+  {
+    "link": "/categories/specials_schools",
+    "name": "Établissements spécialisés",
+    "slug": "specials_schools"
+  },
+  {
+    "link": "/categories/vocational_training",
+    "name": "Formation professionnelle",
+    "slug": "vocational_training"
+  },
+  {
+    "link": "/categories/courses_classes",
+    "name": "Formations & cours",
+    "slug": "courses_classes"
+  },
+  {
+    "link": "/categories/education_services",
+    "name": "Services éducatifs",
+    "slug": "education_services"
+  },
+  {
+    "link": "/categories/electronics_technology",
+    "name": "Électronique & technologie",
+    "slug": "electronics_technology"
+  },
+  {
+    "link": "/categories/appliances_electronics",
+    "name": "Appareils électroniques",
+    "slug": "appliances_electronics"
+  },
+  {
+    "link": "/categories/audio_visual",
+    "name": "Audiovisuel",
+    "slug": "audio_visual"
+  },
+  {
+    "link": "/categories/internet_software",
+    "name": "Internet & logiciels",
+    "slug": "internet_software"
+  },
+  {
+    "link": "/categories/computers_phones",
+    "name": "Ordinateurs & téléphones",
+    "slug": "computers_phones"
+  },
+  {
+    "link": "/categories/repair_services",
+    "name": "Services de réparation",
+    "slug": "repair_services"
+  },
+  {
+    "link": "/categories/events_entertainment",
+    "name": "Événements & divertissement",
+    "slug": "events_entertainment"
+  },
+  {
+    "link": "/categories/clubbing_nightlife",
+    "name": "Discothèques & vie nocturne",
+    "slug": "clubbing_nightlife"
+  },
+  {
+    "link": "/categories/adult_entertainment",
+    "name": "Divertissement pour adultes",
+    "slug": "adult_entertainment"
+  },
+  {
+    "link": "/categories/childrens_entertainment",
+    "name": "Divertissement pour enfants",
+    "slug": "childrens_entertainment"
+  },
+  {
+    "link": "/categories/gaming",
+    "name": "Jeux",
+    "slug": "gaming"
+  },
+  {
+    "link": "/categories/gambling",
+    "name": "Jeux d'argent",
+    "slug": "gambling"
+  },
+  {
+    "link": "/categories/events_venues",
+    "name": "Lieux d'événements",
+    "slug": "events_venues"
+  },
+  {
+    "link": "/categories/wedding_party",
+    "name": "Mariage & fêtes",
+    "slug": "wedding_party"
+  },
+  {
+    "link": "/categories/museums_exibits",
+    "name": "Musées & expositions",
+    "slug": "museums_exibits"
+  },
+  {
+    "link": "/categories/music_movies",
+    "name": "Musique & films",
+    "slug": "music_movies"
+  },
+  {
+    "link": "/categories/theater_opera",
+    "name": "Théâtre & opéra",
+    "slug": "theater_opera"
+  },
+  {
+    "link": "/categories/hobbies_crafts",
+    "name": "Loisirs & artisanat",
+    "slug": "hobbies_crafts"
+  },
+  {
+    "link": "/categories/outdoor_activities",
+    "name": "Activités extérieures",
+    "slug": "outdoor_activities"
+  },
+  {
+    "link": "/categories/art_handicraft",
+    "name": "Art & artisanat",
+    "slug": "art_handicraft"
+  },
+  {
+    "link": "/categories/astrology_numerology",
+    "name": "Astrologie & numérologie",
+    "slug": "astrology_numerology"
+  },
+  {
+    "link": "/categories/fishing_hunting",
+    "name": "Chasse & pêche",
+    "slug": "fishing_hunting"
+  },
+  {
+    "link": "/categories/needlework_knitting",
+    "name": "Couture & tricot",
+    "slug": "needlework_knitting"
+  },
+  {
+    "link": "/categories/hobbies",
+    "name": "Loisirs",
+    "slug": "hobbies"
+  },
+  {
+    "link": "/categories/music_instruments",
+    "name": "Musique & instruments",
+    "slug": "music_instruments"
+  },
+  {
+    "link": "/categories/painting_paper",
+    "name": "Peinture & papier",
+    "slug": "painting_paper"
+  },
+  {
+    "link": "/categories/metal_stone_glass_work",
+    "name": "Travail du métal, de la pierre & du verre",
+    "slug": "metal_stone_glass_work"
+  },
+  {
+    "link": "/categories/home_garden",
+    "name": "Maison & jardin",
+    "slug": "home_garden"
+  },
+  {
+    "link": "/categories/home_improvements",
+    "name": "Amélioration de l'habitat",
+    "slug": "home_improvements"
+  },
+  {
+    "link": "/categories/decoration_interior",
+    "name": "Décoration & design intérieur",
+    "slug": "decoration_interior"
+  },
+  {
+    "link": "/categories/energy_heating",
+    "name": "Énergie & chauffage",
+    "slug": "energy_heating"
+  },
+  {
+    "link": "/categories/garden_pond",
+    "name": "Jardin & paysagisme",
+    "slug": "garden_pond"
+  },
+  {
+    "link": "/categories/home_goods_stores",
+    "name": "Magasin d'équipement pour la maison",
+    "slug": "home_goods_stores"
+  },
+  {
+    "link": "/categories/furniture_stores",
+    "name": "Magasins de meubles",
+    "slug": "furniture_stores"
+  },
+  {
+    "link": "/categories/cultural_goods",
+    "name": "Produits culturels",
+    "slug": "cultural_goods"
+  },
+  {
+    "link": "/categories/bathroom_kitchen",
+    "name": "Salle de bains & cuisine",
+    "slug": "bathroom_kitchen"
+  },
+  {
+    "link": "/categories/home_garden_services",
+    "name": "Services ménagers & jardinage",
+    "slug": "home_garden_services"
+  },
+  {
+    "link": "/categories/fabric_stationary",
+    "name": "Tissus & papeterie",
+    "slug": "fabric_stationary"
+  },
+  {
+    "link": "/categories/media_publishing",
+    "name": "Médias & édition",
+    "slug": "media_publishing"
+  },
+  {
+    "link": "/categories/books_magazines",
+    "name": "Livres & magazines",
+    "slug": "books_magazines"
+  },
+  {
+    "link": "/categories/media_information",
+    "name": "Médias & information",
+    "slug": "media_information"
+  },
+  {
+    "link": "/categories/photography",
+    "name": "Photographie",
+    "slug": "photography"
+  },
+  {
+    "link": "/categories/video_sound",
+    "name": "Vidéo & son",
+    "slug": "video_sound"
+  },
+  {
+    "link": "/categories/restaurants_bars",
+    "name": "Restaurants & bars",
+    "slug": "restaurants_bars"
+  },
+  {
+    "link": "/categories/takeaway",
+    "name": "À emporter",
+    "slug": "takeaway"
+  },
+  {
+    "link": "/categories/bars_cafes",
+    "name": "Bars & cafés",
+    "slug": "bars_cafes"
+  },
+  {
+    "link": "/categories/african_pacific_cuisine",
+    "name": "Cuisine africaine & cuisine du Pacifique",
+    "slug": "african_pacific_cuisine"
+  },
+  {
+    "link": "/categories/chinese_korean_cuisine",
+    "name": "Cuisine chinoise & coréene",
+    "slug": "chinese_korean_cuisine"
+  },
+  {
+    "link": "/categories/north_south_american_cuisine",
+    "name": "Cuisine d'Afrique du Nord et du Sud",
+    "slug": "north_south_american_cuisine"
+  },
+  {
+    "link": "/categories/southeast_asian_cuisine",
+    "name": "Cuisine d'Asie du Sud-Est",
+    "slug": "southeast_asian_cuisine"
+  },
+  {
+    "link": "/categories/middle_eastern_cuisine",
+    "name": "Cuisine du Moyen-Orient",
+    "slug": "middle_eastern_cuisine"
+  },
+  {
+    "link": "/categories/european_cuisine",
+    "name": "Cuisine européenne",
+    "slug": "european_cuisine"
+  },
+  {
+    "link": "/categories/japanese_cuisine",
+    "name": "Cuisine japonaise",
+    "slug": "japanese_cuisine"
+  },
+  {
+    "link": "/categories/mediterranean_cuisine",
+    "name": "Cuisine méditerranéenne",
+    "slug": "mediterranean_cuisine"
+  },
+  {
+    "link": "/categories/general_restaurants",
+    "name": "Restaurants spécialisés",
+    "slug": "general_restaurants"
+  },
+  {
+    "link": "/categories/vegetarian_diet",
+    "name": "Végétarien & régime",
+    "slug": "vegetarian_diet"
+  },
+  {
+    "link": "/categories/health_medical",
+    "name": "Santé & médecine",
+    "slug": "health_medical"
+  },
+  {
+    "link": "/categories/physical_aids",
+    "name": "Aides physiques",
+    "slug": "physical_aids"
+  },
+  {
+    "link": "/categories/clinics",
+    "name": "Cliniques",
+    "slug": "clinics"
+  },
+  {
+    "link": "/categories/diagnostics_testing",
+    "name": "Diagnostic & tests",
+    "slug": "diagnostics_testing"
+  },
+  {
+    "link": "/categories/doctors_surgeons",
+    "name": "Docteurs & chirurgiens",
+    "slug": "doctors_surgeons"
+  },
+  {
+    "link": "/categories/health_equipment",
+    "name": "Équipement médical",
+    "slug": "health_equipment"
+  },
+  {
+    "link": "/categories/hospital_emergency",
+    "name": "Hôpital & urgences",
+    "slug": "hospital_emergency"
+  },
+  {
+    "link": "/categories/pregnancy_children",
+    "name": "Maternité & enfants",
+    "slug": "pregnancy_children"
+  },
+  {
+    "link": "/categories/medical_specialists",
+    "name": "Médecins spécialistes",
+    "slug": "medical_specialists"
+  },
+  {
+    "link": "/categories/pharmacy_medicine",
+    "name": "Pharmacie & médicaments",
+    "slug": "pharmacy_medicine"
+  },
+  {
+    "link": "/categories/mental_health",
+    "name": "Santé mentale",
+    "slug": "mental_health"
+  },
+  {
+    "link": "/categories/dental_services",
+    "name": "Services dentaires",
+    "slug": "dental_services"
+  },
+  {
+    "link": "/categories/therapy_senior_health",
+    "name": "Thérapie & santé pour personnes âgées",
+    "slug": "therapy_senior_health"
+  },
+  {
+    "link": "/categories/vision_hearing",
+    "name": "Vue & audition",
+    "slug": "vision_hearing"
+  },
+  {
+    "link": "/categories/utilities",
+    "name": "Services",
+    "slug": "utilities"
+  },
+  {
+    "link": "/categories/energy_power",
+    "name": "Énergie & électricité",
+    "slug": "energy_power"
+  },
+  {
+    "link": "/categories/oil_fuel",
+    "name": "Pétrole & carburant",
+    "slug": "oil_fuel"
+  },
+  {
+    "link": "/categories/water_utilities",
+    "name": "Traitement des eaux",
+    "slug": "water_utilities"
+  },
+  {
+    "link": "/categories/home_services",
+    "name": "Services à domicile",
+    "slug": "home_services"
+  },
+  {
+    "link": "/categories/craftsman",
+    "name": "Artisan",
+    "slug": "craftsman"
+  },
+  {
+    "link": "/categories/moving_storage",
+    "name": "Déménagement & entreposage",
+    "slug": "moving_storage"
+  },
+  {
+    "link": "/categories/house_sitting_security",
+    "name": "Gardiennage de maison et sécurité",
+    "slug": "house_sitting_security"
+  },
+  {
+    "link": "/categories/plumbing_sanitation",
+    "name": "Plomberie & assainissement",
+    "slug": "plumbing_sanitation"
+  },
+  {
+    "link": "/categories/cleaning_service_providers",
+    "name": "Prestataires de service de nettoyage",
+    "slug": "cleaning_service_providers"
+  },
+  {
+    "link": "/categories/repair_service_providers",
+    "name": "Prestataires de services de réparation",
+    "slug": "repair_service_providers"
+  },
+  {
+    "link": "/categories/house_services",
+    "name": "Services à domicile",
+    "slug": "house_services"
+  },
+  {
+    "link": "/categories/business_services",
+    "name": "Services aux entreprises",
+    "slug": "business_services"
+  },
+  {
+    "link": "/categories/administration_services",
+    "name": "Administration & services",
+    "slug": "administration_services"
+  },
+  {
+    "link": "/categories/associations_centers",
+    "name": "Associations & centres",
+    "slug": "associations_centers"
+  },
+  {
+    "link": "/categories/wholesale",
+    "name": "Commerce de gros",
+    "slug": "wholesale"
+  },
+  {
+    "link": "/categories/import_export",
+    "name": "Import & export",
+    "slug": "import_export"
+  },
+  {
+    "link": "/categories/print_graphic_design",
+    "name": "Impression & design graphique",
+    "slug": "print_graphic_design"
+  },
+  {
+    "link": "/categories/research_development",
+    "name": "Impression & design graphique",
+    "slug": "research_development"
+  },
+  {
+    "link": "/categories/it_communication",
+    "name": "Informatique & communication",
+    "slug": "it_communication"
+  },
+  {
+    "link": "/categories/office_space_supplies",
+    "name": "Locaux & fournitures de bureau",
+    "slug": "office_space_supplies"
+  },
+  {
+    "link": "/categories/hr_recruiting",
+    "name": "Ressources humaines & recrutement",
+    "slug": "hr_recruiting"
+  },
+  {
+    "link": "/categories/shipping_logistics",
+    "name": "Transport & logistique",
+    "slug": "shipping_logistics"
+  },
+  {
+    "link": "/categories/sales_marketing",
+    "name": "Ventes & marketing",
+    "slug": "sales_marketing"
+  },
+  {
+    "link": "/categories/legal_services_government",
+    "name": "Services juridiques & administration",
+    "slug": "legal_services_government"
+  },
+  {
+    "link": "/categories/lawyers_attorneys",
+    "name": "Avocats & juristes",
+    "slug": "lawyers_attorneys"
+  },
+  {
+    "link": "/categories/libraries_archives",
+    "name": "Bibliothèques & archives",
+    "slug": "libraries_archives"
+  },
+  {
+    "link": "/categories/government_department",
+    "name": "Département gouvernemental",
+    "slug": "government_department"
+  },
+  {
+    "link": "/categories/municipal_department",
+    "name": "Département municipal",
+    "slug": "municipal_department"
+  },
+  {
+    "link": "/categories/customs_toll",
+    "name": "Douane & péage",
+    "slug": "customs_toll"
+  },
+  {
+    "link": "/categories/law_enforcement",
+    "name": "Maintien de l'ordre public",
+    "slug": "law_enforcement"
+  },
+  {
+    "link": "/categories/legal_service_providers",
+    "name": "Prestataires de services juridiques",
+    "slug": "legal_service_providers"
+  },
+  {
+    "link": "/categories/registration_services",
+    "name": "Services d'enregistrement",
+    "slug": "registration_services"
+  },
+  {
+    "link": "/categories/public_local_services",
+    "name": "Services publics & locaux",
+    "slug": "public_local_services"
+  },
+  {
+    "link": "/categories/employment_career",
+    "name": "Emploi & carrière",
+    "slug": "employment_career"
+  },
+  {
+    "link": "/categories/kids_family",
+    "name": "Enfants & famille",
+    "slug": "kids_family"
+  },
+  {
+    "link": "/categories/funeral_memorial",
+    "name": "Funérailles & mémorial",
+    "slug": "funeral_memorial"
+  },
+  {
+    "link": "/categories/waste_management",
+    "name": "Gestion des déchets",
+    "slug": "waste_management"
+  },
+  {
+    "link": "/categories/religious_institutions",
+    "name": "Institutions religieuses",
+    "slug": "religious_institutions"
+  },
+  {
+    "link": "/categories/military_veteran",
+    "name": "Militaire & ancien combattant",
+    "slug": "military_veteran"
+  },
+  {
+    "link": "/categories/nature_environment",
+    "name": "Nature & environnement",
+    "slug": "nature_environment"
+  },
+  {
+    "link": "/categories/professional_organizations",
+    "name": "Organisations professionnelles",
+    "slug": "professional_organizations"
+  },
+  {
+    "link": "/categories/shelters_homes",
+    "name": "Refuges & centres d'accueil",
+    "slug": "shelters_homes"
+  },
+  {
+    "link": "/categories/public_services_welfare",
+    "name": "Services publics et bien-être",
+    "slug": "public_services_welfare"
+  },
+  {
+    "link": "/categories/housing_associations",
+    "name": "Sociétés de logement",
+    "slug": "housing_associations"
+  },
+  {
+    "link": "/categories/shopping_fashion",
+    "name": "Shopping & mode",
+    "slug": "shopping_fashion"
+  },
+  {
+    "link": "/categories/accessories",
+    "name": "Accessoires",
+    "slug": "accessories"
+  },
+  {
+    "link": "/categories/jewelry_watches",
+    "name": "Bijoux & montres",
+    "slug": "jewelry_watches"
+  },
+  {
+    "link": "/categories/malls_marketplaces",
+    "name": "Centres commerciaux & marchés",
+    "slug": "malls_marketplaces"
+  },
+  {
+    "link": "/categories/costume_wedding",
+    "name": "Costume & mariage",
+    "slug": "costume_wedding"
+  },
+  {
+    "link": "/categories/clothing_rental_repair",
+    "name": "Location & Réparation de vêtements",
+    "slug": "clothing_rental_repair"
+  },
+  {
+    "link": "/categories/clothing_underwear",
+    "name": "Vêtements & sous-vêtements",
+    "slug": "clothing_underwear"
+  },
+  {
+    "link": "/categories/sports",
+    "name": "Sport",
+    "slug": "sports"
+  },
+  {
+    "link": "/categories/martial_arts_wrestling",
+    "name": "Arts martiaux & lutte",
+    "slug": "martial_arts_wrestling"
+  },
+  {
+    "link": "/categories/dancing_gymnastics",
+    "name": "Danse & gymnastique",
+    "slug": "dancing_gymnastics"
+  },
+  {
+    "link": "/categories/equipment_associations",
+    "name": "Équipement & associations sportives",
+    "slug": "equipment_associations"
+  },
+  {
+    "link": "/categories/fitness_weight_lifting",
+    "name": "Fitness & haltérophilie",
+    "slug": "fitness_weight_lifting"
+  },
+  {
+    "link": "/categories/golf_ultimate",
+    "name": "Golf & utimate",
+    "slug": "golf_ultimate"
+  },
+  {
+    "link": "/categories/hockey_ice_skating",
+    "name": "Hockey & patinage sur glace",
+    "slug": "hockey_ice_skating"
+  },
+  {
+    "link": "/categories/ball_games",
+    "name": "Jeux de balle",
+    "slug": "ball_games"
+  },
+  {
+    "link": "/categories/bat-and-ball_games",
+    "name": "Jeux de batte & de balle",
+    "slug": "bat-and-ball_games"
+  },
+  {
+    "link": "/categories/bowls_lawn_sports",
+    "name": "Jeux de boules & sur pelouse",
+    "slug": "bowls_lawn_sports"
+  },
+  {
+    "link": "/categories/swimming_water_sports",
+    "name": "Natation & sports aquatiques",
+    "slug": "swimming_water_sports"
+  },
+  {
+    "link": "/categories/shooting_target_sports",
+    "name": "Sports de tir & sports de cible",
+    "slug": "shooting_target_sports"
+  },
+  {
+    "link": "/categories/outdoor_winter_sports",
+    "name": "Sports en extérieur & sports d'hiver",
+    "slug": "outdoor_winter_sports"
+  },
+  {
+    "link": "/categories/extreme_sports",
+    "name": "Sports extrêmes",
+    "slug": "extreme_sports"
+  },
+  {
+    "link": "/categories/tennis_racquet_sports",
+    "name": "Tennis & sports de raquette",
+    "slug": "tennis_racquet_sports"
+  },
+  {
+    "link": "/categories/travel_vacation",
+    "name": "Vacances & voyages",
+    "slug": "travel_vacation"
+  },
+  {
+    "link": "/categories/activities_tours",
+    "name": "Activités & excursions",
+    "slug": "activities_tours"
+  },
+  {
+    "link": "/categories/travel_agencies",
+    "name": "Agences de voyage",
+    "slug": "travel_agencies"
+  },
+  {
+    "link": "/categories/airlines_air_travel",
+    "name": "Compagnies aériennes & aéroports",
+    "slug": "airlines_air_travel"
+  },
+  {
+    "link": "/categories/accomodations_lodging",
+    "name": "Hébergements & logements de vacances",
+    "slug": "accomodations_lodging"
+  },
+  {
+    "link": "/categories/hotels",
+    "name": "Hôtels",
+    "slug": "hotels"
+  },
+  {
+    "link": "/categories/vehicles_transportation",
+    "name": "Véhicules & transport",
+    "slug": "vehicles_transportation"
+  },
+  {
+    "link": "/categories/airports_parking",
+    "name": "Aéroports & parking",
+    "slug": "airports_parking"
+  },
+  {
+    "link": "/categories/other_vehicles_trailers",
+    "name": "Autres véhicules & remorques",
+    "slug": "other_vehicles_trailers"
+  },
+  {
+    "link": "/categories/vehical_rental",
+    "name": "Location de véhicules",
+    "slug": "vehical_rental"
+  },
+  {
+    "link": "/categories/motorcycle_powersports",
+    "name": "Motos & sports motorisés",
+    "slug": "motorcycle_powersports"
+  },
+  {
+    "link": "/categories/auto_parts_wheels",
+    "name": "Pièces automobiles détachées & roues",
+    "slug": "auto_parts_wheels"
+  },
+  {
+    "link": "/categories/vehicle_repair_fuel",
+    "name": "Réparation de véhicules & carburant",
+    "slug": "vehicle_repair_fuel"
+  },
+  {
+    "link": "/categories/taxis_public_transport",
+    "name": "Taxis & transports publics",
+    "slug": "taxis_public_transport"
+  },
+  {
+    "link": "/categories/air_water_transport",
+    "name": "Transport aérien & nautique",
+    "slug": "air_water_transport"
+  },
+  {
+    "link": "/categories/bicycles",
+    "name": "Vélos",
+    "slug": "bicycles"
+  },
+  {
+    "link": "/categories/cars_trucks",
+    "name": "Voitures & camions",
+    "slug": "cars_trucks"
+  }
+]
