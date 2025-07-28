@@ -7,6 +7,12 @@ First retrieve the project on your computer
 ```bash
 git clone https://github.com/AdJez/ai_supply_chain.git
 ```
+skdhjcbqjhdbchqjs i 
+sde
+fs
+def
+sdf
+sd
 
 On your machine, create an env wherever you want. In this example we gonna place it the root of our machine.   
 
