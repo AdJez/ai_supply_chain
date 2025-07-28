@@ -31,7 +31,7 @@ class GetProductsSpider(scrapy.Spider):
             self.logger.error("Invalid JSON in categories.json file") 
 
 
-    def get_products(self, response: scrapy.http.Response, category_name, category_slug):
+    def get_products(self, response: scrapy.http.Response, category_name: str, category_slug: str) -> scrapy.Request | None:
         """Parse the category page and extract all company information"""
                 # Find categories div container
 

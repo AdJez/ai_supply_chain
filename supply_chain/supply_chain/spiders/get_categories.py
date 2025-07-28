@@ -11,7 +11,7 @@ class GetCategorySpider(scrapy.Spider):
         for url in urls:
             yield scrapy.Request(url=url, callback=self.parse_categories)
 
-    def parse_categories(self, response: scrapy.http.Response):
+    def parse_categories(self, response: scrapy.http.Response) -> scrapy.Request | None:
         """Parse the categories page and extract all category information"""
 
         # Find categories div container
@@ -48,5 +48,5 @@ class GetCategorySpider(scrapy.Spider):
                     'slug': slug
                 })
         # Save categories_json to file
-        with open('categories.json', 'w', encoding='utf-8') as f:
+        with open('category_links.json', 'w', encoding='utf-8') as f:
             json.dump(categories_json, f, ensure_ascii=False, indent=2)
