@@ -35,3 +35,50 @@ This project is made by two main parts. First part is.
 # Crawl with Scrapy:
 
 scrapy crawl trust
+
+____________________________________________________________________________________________________________
+Pour Windows: 
+
+Étape 1 — Cloner le projet
+```bash
+git clone https://github.com/AdJez/ai_supply_chain.git
+cd ai_supply_chain
+```
+
+ Étape 2 — Créer l’environnement virtuel
+```bash
+py -m venv venv
+```
+
+Étape 3 — Activer l’environnement virtuel
+```powershell
+.\venv\Scripts\Activate.ps1
+```
+ou
+```bash
+source venv/Scripts/activate
+```
+Si c'est bon, l'invite de commande va afficher: "(venv) PS C:\Users\...>"
+
+Étape 4 — Installer les dépendances
+```bash
+pip install -r requirements.txt
+```
+
+Étape 5 — Vérifier que Scrapy fonctionne
+```bash
+scrapy list
+```
+Normalement ca affiche les spider dispo 
+
+Étape 6 — Lancer un spider
+```bash
+scrapy crawl get_categories
+```
+
+Étape 7 — Désactiver l’environnement
+```bash
+deactivate
+```
+
+
