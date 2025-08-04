@@ -34,7 +34,11 @@ class GetCategorySpider(scrapy.Spider):
             return None
 
         # Extract href and text from category links into JSON structure
+
+
         categories_json = []
+        hello = "Hello, this is a test message."
+        categories_json.append(hello)
 
         for link in category_links:
             href = link.attrib.get('href')
