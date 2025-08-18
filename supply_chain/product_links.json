@@ -1,0 +1,23 @@
+[
+  {
+    "lefourgon.com": {
+      "product_link": "/review/lefourgon.com",
+      "category_slug": "food_beverages_tobacco",
+      "category_name": "Aliments, boissons & tabac"
+    }
+  },
+  {
+    "cheef.fr": {
+      "product_link": "/review/cheef.fr",
+      "category_slug": "food_beverages_tobacco",
+      "category_name": "Aliments, boissons & tabac"
+    }
+  },
+  {
+    "vert-tiges.com": {
+      "product_link": "/review/vert-tiges.com",
+      "category_slug": "food_beverages_tobacco",
+      "category_name": "Aliments, boissons & tabac"
+    }
+  }
+]
