@@ -1,17 +1,7 @@
 [
   {
-    "link": "/categories/food_beverages_tobacco",
-    "name": "Aliments, boissons & tabac",
-    "slug": "food_beverages_tobacco"
-  },
-  {
-    "link": "/categories/agriculture_produce",
-    "name": "Agriculture & production",
-    "slug": "agriculture_produce"
-  },
-  {
-    "link": "/categories/beer_wine",
-    "name": "Bière & vin",
-    "slug": "beer_wine"
+    "link": "/categories/shopping_fashion",
+    "name": "Shopping & mode",
+    "slug": "shopping_fashion"
   }
 ]

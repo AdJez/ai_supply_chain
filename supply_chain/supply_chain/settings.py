@@ -16,7 +16,7 @@ ADDONS = {}
 
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = "supply_chain (+http://www.yourdomain.com)"
+USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/18.3.1 Safari/605.1.15"
 
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = False
