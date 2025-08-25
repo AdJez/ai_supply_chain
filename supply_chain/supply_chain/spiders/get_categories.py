@@ -17,12 +17,12 @@ class GetCategorySpider(scrapy.Spider):
         # Find categories div container
         categories_div = response.xpath('//div[starts-with(@class, "categories")]')
 
-        if not categories_div:
+        if len(categories_div.getall()) < 1:
             self.logger.error("Could not find categories desktop container")
             return None
 
         # Check if categories_desktop selector returns multiple elements
-        if len(categories_div) > 1:
+        if len(categories_div.getall()) > 1:
             self.logger.error("Found multiple categories desktop containers - expected only one")
             return None
 

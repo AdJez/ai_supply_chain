@@ -1,4 +1,7 @@
 import json
+from time import sleep
+from urllib.parse import urlparse, parse_qs
+
 import scrapy
 
 class GetProductsSpider(scrapy.Spider):
@@ -12,7 +15,8 @@ class GetProductsSpider(scrapy.Spider):
             with open('category_links.json', 'r', encoding='utf-8') as f:
                 categories = json.load(f)
             base_url = "https://fr.trustpilot.com"
-            
+
+
             for category in categories:
                 category_url = base_url + category['link']
 
@@ -34,6 +38,7 @@ class GetProductsSpider(scrapy.Spider):
     def get_products(self, response: scrapy.http.Response, category_name: str, category_slug: str):
         """Parse the category page and extract all company information"""
                 # Find categories div container
+        sleep(1)
 
         products_div = response.xpath('//div[starts-with(@class, "categorylayout_leftSection")]')
         if not products_div:
@@ -88,7 +93,7 @@ class GetProductsSpider(scrapy.Spider):
         # Pagination: look for the next page button; only follow if not disabled
         next_button = response.xpath('//a[@name="pagination-button-next"]')
 
-        if next_button:
+        if next_button.get():
             aria_disabled = (next_button.xpath('@aria-disabled').get() or '').lower()
             next_href = next_button.xpath('@href').get()
             is_disabled = (aria_disabled == 'true') or (not next_href)

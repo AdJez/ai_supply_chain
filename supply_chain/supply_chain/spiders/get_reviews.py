@@ -1,6 +1,8 @@
 import json
 import csv
 import os
+import random
+from urllib.parse import urlparse, parse_qs
 import scrapy
 
 class GetReviewsSpider(scrapy.Spider):
@@ -14,25 +16,65 @@ class GetReviewsSpider(scrapy.Spider):
             with open('product_links.json', 'r', encoding='utf-8') as f:
                 products = json.load(f)
             base_url = "https://fr.trustpilot.com"
-            
+
+            # Load already-reviewed product slugs
+            reviewed_slugs_path = 'product_reviewed_slugs.json'
+            reviewed_slugs: list[str] = []
+            if os.path.exists(reviewed_slugs_path):
+                try:
+                    with open(reviewed_slugs_path, 'r', encoding='utf-8') as f_saved:
+                        data = json.load(f_saved)
+                        if isinstance(data, list):
+                            reviewed_slugs = [str(s) for s in data]
+                        else:
+                            self.logger.warning("Unexpected format in %s; expected a list. Resetting.", reviewed_slugs_path)
+                except json.JSONDecodeError:
+                    self.logger.error("Invalid JSON in %s; starting with empty reviewed list", reviewed_slugs_path)
+
+            reviewed_set = set(reviewed_slugs)
+
+            # Build list of candidate products not yet reviewed
+            candidates = []
             for product in products:
-                # Extract the first (and only) key from the product dict
                 try:
                     slug = next(iter(product))
                 except StopIteration:
-                    self.logger.error("Encountered empty product object; skipping")
+                    # Skip empty product objects
                     continue
+                if slug not in reviewed_set:
+                    candidates.append(product)
 
-                product_url = base_url + product[slug]['product_link']
-                yield scrapy.Request(
-                    url=product_url,
-                    callback=self.get_reviews,
-                    cb_kwargs={
-                        'category_slug': product[slug]['category_slug'],
-                        'category_name': product[slug]['category_name'],
-                        'product_slug': slug
-                    }
-                )
+            if not candidates:
+                self.logger.info("No unreviewed products left to crawl. Consider clearing %s if you want to restart.", reviewed_slugs_path)
+                return
+
+            # Pick one random product among unreviewed candidates
+            product = random.choice(candidates)
+            try:
+                slug = next(iter(product))
+            except StopIteration:
+                self.logger.error("Encountered empty product object after filtering; stopping")
+                return
+
+            # Persist selection immediately to avoid crawling the same link twice
+            if slug not in reviewed_set:
+                reviewed_slugs.append(slug)
+                try:
+                    with open(reviewed_slugs_path, 'w', encoding='utf-8') as f_saved:
+                        json.dump(reviewed_slugs, f_saved, ensure_ascii=False, indent=2)
+                except Exception as e:
+                    self.logger.error("Failed to write %s: %s", reviewed_slugs_path, e)
+
+            product_url = base_url + product[slug]['product_link']
+            yield scrapy.Request(
+                url=product_url,
+                callback=self.get_reviews,
+                cb_kwargs={
+                    'category_slug': product[slug]['category_slug'],
+                    'category_name': product[slug]['category_name'],
+                    'product_slug': slug
+                }
+            )
 
         except FileNotFoundError:
             self.logger.error("Could not find products.json file")
@@ -157,7 +199,7 @@ class GetReviewsSpider(scrapy.Spider):
 
         next_button = response.xpath('//a[@name="pagination-button-next"]')
 
-        if next_button:
+        if next_button.get():
             aria_disabled = (next_button.xpath('@aria-disabled').get() or '').lower()
             next_href = next_button.xpath('@href').get()
             is_disabled = (aria_disabled == 'true') or (not next_href)
@@ -168,6 +210,21 @@ class GetReviewsSpider(scrapy.Spider):
                 return
 
             next_url = response.urljoin(next_href)
+
+            # Parse page param from next_url and stop if > 5
+            try:
+                parsed = urlparse(next_url)
+                page_vals = parse_qs(parsed.query).get('page')
+                page_num = int(page_vals[0]) if page_vals and page_vals[0].isdigit() else None
+            except Exception as e:
+                self.logger.warning("Could not parse page parameter from next URL '%s': %s", next_url, e)
+                page_num = None
+
+            if page_num is not None and page_num > 5:
+                self.logger.info(
+                    "Stopping pagination at page %s (limit=5) for product: %s", page_num, product_slug
+                )
+                return
 
             self.logger.info("Next pagination button found, following the link: %s", next_url)
 
