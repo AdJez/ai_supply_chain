@@ -1,0 +1,27 @@
+// Pipeline de preprocessing
+digraph {
+	fontname=Helvetica fontsize=12 rankdir=TB size=10
+	A [label="Avis bruts (CSV scrappé)" color=lightgrey shape=box style="rounded,filled"]
+	B [label="Standardisation colonnes
+(schema cible)" color=lightblue shape=box style="rounded,filled"]
+	C [label="Vérifications initiales
+(NA, doublons, langue)" color=lightblue shape=box style="rounded,filled"]
+	D [label="Split stratifié
+(train / val / test)" color=lightyellow shape=box style="rounded,filled"]
+	E [label="Nettoyage minimal (text_dl)
++ flags regex" color=palegreen shape=box style="rounded,filled"]
+	F [label="Nettoyage agressif (text_ml)
++ lemmatisation + stopwords dynamiques" color=palegreen shape=box style="rounded,filled"]
+	G [label="Features auxiliaires
+(char_len, !, majuscules)" color=orange shape=box style="rounded,filled"]
+	H [label="Sauvegardes
+(splits, artefacts.json, pipeline joblib)" color=lightgrey shape=box style="rounded,filled"]
+	A -> B
+	B -> C
+	C -> D
+	D -> E
+	D -> F
+	D -> G
+	F -> H
+	G -> H
+}

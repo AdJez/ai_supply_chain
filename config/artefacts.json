@@ -1,0 +1,15 @@
+{
+  "dynamic_stopwords": [],
+  "base_stopwords_fr_count": 157,
+  "random_state": 42,
+  "val_size": 0.1,
+  "test_size": 0.2,
+  "lang": "fr",
+  "lang_filter_fr": true,
+  "spacy_used": true,
+  "tfidf_params": {
+    "ngram_max": 2,
+    "min_df": 5,
+    "max_df": 0.9
+  }
+}
